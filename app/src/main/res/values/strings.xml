@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">Swifty</string>
+    <string name="google_map_api_key">AIzaSyBlgz0RJlUUzIY5nW5DvxpMAb9CogjcyPk</string>
+    <string name="empty_string"></string>
+
+    <!-- Login Screen -->
+    <string name="welcome_back">Welcome back!</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="enter_email_address">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="or">Or</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="logo">logo</string>
+    <string name="email_error">Please enter an valid email</string>
+    <string name="pw_error">Please enter the password</string>
+    <string name="signing_in">Signing you in…</string>
+    <string name="login_fail">Invalid email or password. Cannot login.</string>
+    <string name="google_sign_in_fail">Cannot login by Google. Try another login method.</string>
+    <string name="facebook_app_id">6423193947711083</string>
+    <string name="fb_login_protocol_scheme">fb6423193947711083</string>
+    <string name="facebook_client_token">bb21910b6b50b1b78d2b1bfef08f465d</string>
+    <string name="facebook_sign_in_fail">Cannot login by Facebook. Try another login method.</string>
+
+    <!-- Registration Screen -->
+    <string name="register">Register</string>
+    <string name="email_address">E-mail address</string>
+    <string name="invalid_email">Invalid E-mail</string>
+    <string name="verify_email_address">Verify E-mail address</string>
+    <string name="send_to">Send to: </string>
+    <string name="invalid_verification_code">Please enter the verification code</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="signup_fail">Cannot signup with this email. Please try another.</string>
+    <string name="create_account">Create Account</string>
+    <string name="account_created">Account Created!</string>
+    <string name="login_now">You can login and add your user profile</string>
+    <string name="account_not_created">Account Not Created!</string>
+    <string name="retry_registration">Something went wrong.\nPlease make sure your device is online.</string>
+    <string name="go_login">Go to login screen</string>
+    <string name="go_registration">Retry</string>
+
+    <!--    forgot password screen-->
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="login_now_after_reset">Back to login screen</string>
+    <string name="send_reset_email">Send Email</string>
+    <string name="send_reset_link_success">Reset link sent successful</string>
+    <string name="email_not_sent">Email send failed</string>
+    <string name="resend_email">Please enter a valid email.</string>
+    <string name="check_email_instruction">Please check email for reset password instruction</string>
+    <string name="back_to_home_page">Go Back To Home Page</string>
+
+    <!-- Registration Worker Profile Screen -->
+    <string name="worker_preferred_mission_distance_spinner_label">Distance from me</string>
+    <string name="worker_preferred_mission_distance_spinner_prompt">Choose a distance</string>
+    <string-array name="worker_preferred_mission_distance_choices">
+        <item>5km</item>
+        <item>10km</item>
+        <item>15km</item>
+    </string-array>
+
+    <!--  Home activity  -->
+    <string name="switch_portal">Switch To Agent Portal</string>
+    <string name="drawer_logout">Logout</string>
+    <!--    <string name="switch_theme_employer">Switch To Agent Portal</string>-->
+    <!--    <string name="switch_theme_agent">Switch To Employer Portal</string>-->
+    <!--    <string name="employer_portal_name">Employer Portal</string>-->
+    <!--    <string name="agent_portal_name">Agent Portal</string>-->
+
+
+    <!--    Home Fragment-->
+    <string name="no_mission_instruction">Click on a Mission category below to hire an Agent:</string>
+    <string name="no_enough_credit">You don\'t have any Credit left to create a Mission</string>
+    <string-array name="employer_mission_filter">
+        <item>All</item>
+        <item>Confirmed</item>
+        <item>Disputed</item>
+        <item>Open</item>
+        <item>Pending Acceptance</item>
+    </string-array>
+
+    <!--    My Missions Fragment-->
+    <string name="no_history_mission">No Missions yet</string>
+    <string name="encourage_line">Create one now!</string>
+    <string-array name="employer_mission_history_filter">
+        <item>All</item>
+        <item>Confirmed</item>
+        <item>Disputed</item>
+        <item>Open</item>
+        <item>Pending Acceptance</item>
+        <item>Cancelled</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="agent_mission_history_filter">
+        <item>All</item>
+        <item>Confirmed</item>
+        <item>Disputed</item>
+        <item>Enrolled</item>
+        <item>Pending Acceptance</item>
+        <item>Cancelled</item>
+        <item>Completed</item>
+    </string-array>
+
+    <!-- RegistrationWorkerTNCFragment -->
+    <string name="accept_terms_and_conditions_text">I agree to the Terms and Conditions stated above.</string>
+
+    <!-- SignUpCompletionFragment -->
+    <string name="mission_result_success">Mission Completed!</string>
+    <string name="mission_result_failed">Mission Failed!</string>
+    <string name="mission_result_description_success">You are now a member of Swifty Daily Service Agency.</string>
+    <string name="mission_result_description_failed">Something went wrong.\nPlease try again.</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="content_description_placeholder">placeholder</string>
+    <string name="quit">Quit</string>
+    <string name="back">Back</string>
+    <string name="hire_workers">Hire workers</string>
+    <string name="work">Work !</string>
+    <string name="do_both">Do Both</string>
+    <string name="next">Next</string>
+    <string name="skip_for_now">skip for now</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="extra_auth_header">Extra verification - Extra Authenticity</string>
+    <string name="verify_phone_no_header">Verify Phone Number (Optional)</string>
+    <string name="personal_ninformation">Personal\nInformation</string>
+    <string name="profile">Profile</string>
+    <string name="terms_n_nconditions"><![CDATA[Terms & \nConditions]]></string>
+    <string name="lawn_mowing">Lawn Mowing</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="registration_alert">Confirm to quit the registration process?</string>
+    <string name="registration_alert_msg">"This will logout your account and the data you entered will not be saved."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="credit_on_hold">Credit on Hold</string>
+    <string name="credit_on_hold_content">Your Credit will be On Hold when:\n
+1. You created a mission and it has not yet been Completed; or\n
+2. Your mission is Disputed. Credits will be released/deducted after the dispute is resolved.</string>
+    <string name="top_up">Top Up</string>
+    <string name="fifty_credits">50 Credits</string>
+    <string name="one_hundred_credits">100 Credits</string>
+    <string name="five_hundred_credits">500 Credits</string>
+    <string name="cad_50">CAD 50</string>
+    <string name="cad_90">CAD 90</string>
+    <string name="ten_percent_off">10% off</string>
+    <string name="cad_400">CAD 400</string>
+    <string name="twenty_percent_off">20% off</string>
+    <string name="transactions">Transactions</string>
+    <string name="view_more">View More</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="expiration">Expiration</string>
+    <string name="cvc_code">CVC Code</string>
+
+    <!-- CreateMissionFragment -->
+    <string name="category_label">Category: </string>
+    <string name="start_time_label">Start Time: </string>
+    <string name="end_time_label">End Time: </string>
+    <string name="select_a_time">Select a time</string>
+    <string name="location_label">Location: </string>
+    <string name="add_photos_label">(Optional) Add photos and description: </string>
+    <string name="enter_location_here">Enter location here</string>
+    <string name="enter_description_here">Enter description here</string>
+    <string name="usable_balance">Usable balance</string>
+    <string name="credit_label">Credit</string>
+    <string name="credits_label">Credits</string>
+    <string name="empty_credit">Please enter a credit!</string>
+    <string name="not_enough_credit">You don\'t have enough credits!</string>
+    <string name="credit_less_than_or_equal_to_zero">Credits should be greater than 0</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Create Mission Select Category Screen -->
+    <string name="create_mission_select_category_instruction">Select a category:</string>
+    <string-array name="sub_service_type_assembling">
+        <item>Furniture Assembly</item>
+        <item>Product Assembly</item>
+        <item>Cable Assembly</item>
+        <item>Mechanical Assembly</item>
+    </string-array>
+    <string-array name="sub_service_type_cleaning">
+        <item>Residential Cleaning</item>
+        <item>Commercial Cleaning</item>
+        <item>Carpet Cleaning</item>
+        <item>Window Cleaning</item>
+    </string-array>
+    <string-array name="sub_service_type_gardening">
+        <item>Lawn Care</item>
+        <item>Tree and Shrub Care</item>
+        <item>Garden Ned Maintenance</item>
+    </string-array>
+    <string-array name="sub_service_type_moving">
+        <item>Residential Moving</item>
+        <item>Commercial Moving</item>
+        <item>Long-Distance Moving</item>
+        <item>Packing and Unpacking</item>
+    </string-array>
+    <string-array name="sub_service_type_renovation">
+        <item>Painting and Wall Finishing</item>
+        <item>Flooring</item>
+        <item>Home Addition</item>
+        <item>Bathroom Renovation</item>
+    </string-array>
+    <string-array name="sub_service_type_repair">
+        <item>Appliance</item>
+        <item>Electrical</item>
+        <item>Furniture</item>
+        <item>Plumber</item>
+    </string-array>
+    <string-array name="sub_service_type_delivering">
+        <item>Food Delivery</item>
+        <item>Package Delivery</item>
+        <item>Grocery Delivery</item>
+        <item>Furniture Delivery</item>
+    </string-array>
+    <string-array name="sub_service_type_seasonal">
+        <item>Show Shoveling</item>
+        <item>Gutter Cleaning</item>
+        <item>Leaf Clean Up</item>
+        <item>Yard Work</item>
+    </string-array>
+
+    <!-- service type -->
+    <string name="assembling">Assembling</string>
+    <string name="cleaning">Cleaning</string>
+    <string name="gardening">Gardening</string>
+    <string name="moving">Moving</string>
+    <string name="renovation">Renovation</string>
+    <string name="repair">Repair</string>
+    <string name="delivering">Delivering</string>
+    <string name="seasonal">Seasonal</string>
+
+    <string-array name="service_type_list">
+        <item>@string/assembling</item>
+        <item>@string/cleaning</item>
+        <item>@string/gardening</item>
+        <item>@string/moving</item>
+        <item>@string/renovation</item>
+        <item>@string/repair</item>
+        <item>@string/delivering</item>
+        <item>@string/seasonal</item>
+    </string-array>
+
+    <!-- Create Mission Select Sub Service Type Screen -->
+    <string name="create_mission_category_label">Category:</string>
+    <string name="create_mission_select_sub_service_type_instruction">To be more specific:</string>
+    <string name="abort_create_mission_btn_text">Abort Mission</string>
+    <string name="abort_create_mission_alert_title">Abort this Mission?</string>
+    <string name="abort_create_mission_alert_msg">Changes will not be saved.</string>
+
+    <!-- Create Mission Detail Screen -->
+    <string name="start_time_err_msg">Start time is invalid.</string>
+    <string name="end_time_err_msg">End time is invalid.</string>
+    <string name="location_err_msg">Location is invalid.</string>
+    <string name="description_err_msg">Description cannot be longer than 500 words.</string>
+
+    <!-- Create Mission Completion Screen -->
+    <string name="create_mission_result_success">Mission Created</string>
+    <string name="create_mission_result_failed">Mission Aborted</string>
+    <string name="create_mission_result_description_success">You will be redirected to Home page in 10 seconds</string>
+    <string name="create_mission_result_description_failed">You can create a mission anytime again</string>
+
+    <!-- Create Mission Stepper -->
+    <string name="create_mission_step_1">Specify Mission Category</string>
+    <string name="create_mission_step_2">Add Details</string>
+    <string name="create_mission_step_3">Specify Price</string>
+    <string name="go_back_to_home_page">Go Back to Home Page</string>
+    <string name="view_wallet">View Wallet</string>
+    <string name="top_desc">You have more Credits to create Missions now</string>
+    <string name="top_up_success">Top Up Success</string>
+
+    <!-- Mission Details -->
+    <string name="select">Select</string>
+    <string name="status_open">OPEN</string>
+    <string name="status_enrolled">ENROLLED</string>
+    <string name="select_agent_label">Select your agent:</string>
+    <string name="status_confirmed">CONFIRMED</string>
+    <string name="status_pending">PENDING ACCEPTANCE</string>
+    <string name="status_cancel">CANCEL</string>
+    <string name="status_completed">COMPLETED</string>
+    <string name="status_disputed">DISPUTED</string>
+    <string name="agent_label">Agent:</string>
+    <string name="is_complete_label">Is the Mission considered as "Completed"?</string>
+    <string name="accept_button_label">Accept &amp; Release Credits</string>
+    <string name="employer">Client</string>
+    <string name="enroll">Enroll</string>
+
+    <string name="confirm_enrollment">Confirm Enrollment</string>
+    <string name="enroll_mission_header">Enroll this mission?</string>
+    <string name="enroll_mission_content">The mission will be confirmed once the client selects you as agent.\nCancellation within 48 hours before the Start Time will result in penalty.</string>
+
+
+    <string name="confirm_withdraw">Confirm Withdraw</string>
+    <string name="withdraw_mission_header">Withdraw this Mission?</string>
+    <string name="withdraw_mission_warning_content">The Credit of this mission will not be deducted from your wallet, but your cancellation rate will increase, which may affect your reputation.</string>
+    <string name="withdraw_mission_content">Since the mission will start in 48 hours, the Credit of this mission <b> will be deducted </b> from your wallet, and your <b> cancellation rate </b> will increase, which may affect your reputation.</string>
+
+    <string name="confirm_mission_header">Completed this Mission?</string>
+    <string name="confirm_mission_content">Credits will be released once client has confirmed the completion of the mission.</string>
+    <string name="completed_mission_instruction">Upload mission result photo and leave message to client:</string>
+    <string name="confirm_submission">Confirm Submission</string>
+
+    <string name="confirm_revoke">Confirm Revocation</string>
+    <string name="revoke_mission_header">Revoke your enrollment?</string>
+    <string name="revoke_mission_content">The Credit of this mission will not be deducted from your wallet.</string>
+    <string name="mission_comments_edit_text_hint">Enter message here (Optional)</string>
+
+
+    <!-- EmployerMissionDetailsFragment -->
+    <string name="select_agent_alert_msg">The mission will be confirmed. Cancellation within 48 hours before the Start Time will result in penalty.</string>
+    <string name="accept_mission_result_alert_title">Mission Completed?</string>
+    <string name="accept_mission_result_alert_msg">Once the mission is marked as “Completed”, credits of this mission will be released to the agent. You may not reverse this action.</string>
+    <string name="accept_mission_result_success">Mission Completed</string>
+    <string name="accept_mission_result_failed">Mission Aborted</string>
+    <string name="accept_mission_result_description_success">You will be redirected to Review page in 10 seconds</string>
+    <string name="accept_mission_result_description_failed">Error</string>
+    <string name="cancel_mission_alert_title">Cancel this Mission?</string>
+    <string name="cancel_open_mission_alert_msg">The Credit of this mission will not be deducted from your wallet.</string>
+    <string name="cancel_confirmed_mission_in_48_hours_alert_msg">Since the mission will start in 48 hours, the Credit of this mission will be deducted from your wallet, and your cancellation rate will increase, which may affect your reputation.</string>
+    <string name="cancel_confirmed_mission_before_48_hours_alert_msg">The Credit of this mission will not be deducted from your wallet, but your cancellation rate will increase, which may affect your reputation.</string>
+    <string name="dispute_mission_btn_text">Raise Dispute</string>
+    <string name="reject_mission_btn_text">Reject</string>
+    <string name="dispute_mission_alert_title">Raise a Dispute?</string>
+    <string name="dispute_mission_alert_msg">The mission will be marked as “Disputed”, the credits will not be released to the agent but stay on hold. Our customer service team will resolve the dispute as soon as possible.</string>
+    <string name="reject_mission_alert_title">Mission Failed?</string>
+    <string name="reject_mission_alert_msg">The mission will be marked as “Disputed”, the credits will not be released to the agent but stay on hold. Our customer service team will resolve the dispute as soon as possible.</string>
+    <string name="revoke">revoke</string>
+    <string name="leave_review">Leave Review</string>
+    <string name="mission_status_cancelled">Cancelled</string>
+    <string name="mission_status_disputed">Disputed</string>
+    <string name="mission_status_completed">Completed</string>
+    <string name="dispute_btn_message">You can select one or more options</string>
+    <string name="mission_result_title">Photos and message from agent</string>
+
+    <!-- View Profile Fragment -->
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="ratings">Ratings</string>
+    <string name="main_cat">Main Categories</string>
+    <string name="cancel_rate">Cancellation Rate</string>
+    <string name="recent_comments">Recent Comments</string>
+    <string name="view_missions">View Missions</string>
+    <string name="mission_subs">Missions Subscriptions</string>
+    <string name="do_not_miss">Update Subscription - Don\’t miss any mission!</string>
+    <string name="home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="my_missions">My Missions</string>
+    <string name="you">You</string>
+    <string name="agent">Agent</string>
+
+    <!-- Leave a review -->
+    <string name="rate_your_exp">Rate Your Experience</string>
+    <string name="add_photo">(Optional) Add review:</string>
+    <string name="reset">RESET</string>
+    <string name="submit">SUBMIT</string>
+    <string name="rating_image">Rating image</string>
+
+    <!-- View others comments -->
+    <string name="phone_number_verified">Phone number verified</string>
+    <string name="from_all">All</string>
+    <string name="from_agents">From Agents</string>
+    <string name="from_employers">From Clients</string>
+
+    <!--  Chat  -->
+    <string name="chat_room">Chat Room</string>
+
+    <!-- Location Permission -->
+    <string name="ask_for_location_permission">Please grant permission so that the app can get your location.</string>
+    <string name="dispute_description">This Mission is under dispute for the following reason(s).</string>
+    <string name="qualifications_title">Qualifications</string>
+    <string name="upload_cert_description">Update Qualifications - Enhance your competitiveness!</string>
+    <string name="upload_cert_hint">Enter the name of the certification</string>
+    <string name="qualification_name_title">Qualification name</string>
+    <string name="upload_qualification_dialog_title">Upload Qualification</string>
+    <string name="no_qualifications_description">No qualifications uploaded yet</string>
+
+</resources>

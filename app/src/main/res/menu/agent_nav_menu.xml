@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/test1">
+        <item
+            android:id="@+id/portal_name"
+            android:enabled="false"
+            android:title="Client Portal" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/agentHomeFragment"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/walletBalanceFragment"
+            android:icon="@drawable/wallet_icon"
+            android:title="Wallet" />
+
+        <item
+            android:id="@+id/myMissionsFragment"
+            android:icon="@drawable/mission_icon"
+            android:title="My Missions" />
+
+        <item
+            android:id="@+id/myProfileFragment"
+            android:icon="@drawable/profile_icon"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/chatRoomFragment"
+            android:icon="@drawable/chat_room"
+            android:title="@string/chat_room" />
+
+    </group>
+
+
+</menu>
