@@ -24,7 +24,7 @@ Swifty is a service-matching application that demonstrates modern Android develo
 
 ## Architecture
 
-![architecture](figure/figure1.png)
+![architecture](figure/figure01.png)
 
 The overall architecture of **Swifty** is composed of two layers; the UI layer and the data layer. Each layer has dedicated components and they have each different responsibilities, as defined below:
 
