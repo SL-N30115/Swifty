@@ -32,6 +32,7 @@ Swifty is a service-matching application that demonstrates modern Android develo
 - [Retrofit2](https://github.com/square/retrofit): communicate with the REST APIs and paging network data.
 - [Glide](https://github.com/bumptech/glide): Loading images from network.
 - [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager): WorkManager is the primary recommended API for background processing.
+- [LocationManager](https://developer.android.com/reference/android/location/LocationManager): LocationManager for precise location tracking and building location-aware applications.
 
 
 ## Architecture
