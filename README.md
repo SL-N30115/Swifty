@@ -8,6 +8,17 @@ Swifty is a service-matching application that demonstrates modern Android develo
 ![App Screenshot](https://i.imgur.com/W3S0IVa.png)
 
 
+## Features
+
+- Client/Agent mode toggle
+- Mission creation and matching
+- Subscription and notification
+- User profile and evaluation
+- Instant chat
+- Wallet and transactions
+
+
+
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21
 - [Kotlin](https://kotlinlang.org/) based, [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous.
@@ -20,6 +31,7 @@ Swifty is a service-matching application that demonstrates modern Android develo
   - Repository Pattern
 - [Retrofit2](https://github.com/square/retrofit): communicate with the REST APIs and paging network data.
 - [Glide](https://github.com/bumptech/glide): Loading images from network.
+- [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager): WorkManager is the primary recommended API for background processing.
 
 
 ## Architecture
